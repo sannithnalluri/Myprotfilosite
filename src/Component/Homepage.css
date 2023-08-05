@@ -1,0 +1,191 @@
+.logo img{
+    width: 150px;
+    height: 60px;
+}
+.logo{
+    margin-left: 5%;
+}
+.header-web{
+    background-color: rgb(105,0,101);
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.header-phone{
+    display: none;
+}
+.sociallogo img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+.Navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 70%;
+    margin-top: 10px;
+
+}
+.Navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: serif;
+    color: rgb(255, 255, 255);
+}
+.Navbar ul li{
+    padding: 1rem;
+}
+.sociallogo{
+    display: flex;
+    flex-direction:row;
+    list-style: none;
+    margin-left: 30%;
+}
+.sociallogo img{
+    padding: 20px;
+}
+.name{
+    display:flex;
+    flex-Direction:row;
+    margin-left: 100px;
+    height: 100px;
+    
+}
+.marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .marquee p {
+    font-size: 30px;
+    display: inline-block;
+    padding-left: 100%; /* Initial position to start the animation */
+    animation: marquee 15s linear infinite;
+    color: rgb(105,0,101);
+  }
+  @keyframes marquee {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); } /* Translate the text to the left to create the scrolling effect */
+  }
+  .text{
+    width: 50%;
+    margin-top: 10%;
+    
+}
+.main-content{
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    border: 2px solid rgb(189, 189, 189);
+    margin-left: 150px;
+    margin-top: 70px;
+    border-radius: 60%;
+    background-color: rgb(230, 230, 230);
+}
+.image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 60%;
+    z-index: 1;
+}
+.Scroll{
+    position: absolute;
+    bottom: 20px;
+    left: 20%;
+    font-weight: 200;
+    opacity: 0.6;
+}
+
+.sub-text{
+    margin-Left:400px;
+    margin-Bottom:0;
+}
+
+.nametext{
+    padding:10px;
+    font-Size:30px;
+    padding-Top:0px;
+    margin-Top:0px;
+  
+}
+.menu{
+    display: none;
+}
+@media (max-width:500px) {
+    .marquee p {
+        font-size: 15px;
+    }
+    .sub-text{
+        margin-left: 60%;
+        margin-Bottom:10px;
+        font-size: 10px;
+    }
+    
+    .nametext{
+        padding:5px;
+        font-Size:10px;
+        padding-Top:10px;
+        margin-Top:0px;
+      
+    }
+    .header-phone{
+        display: block;
+        background-color: rgb(105,0,101);
+        width: 400px;
+    }
+    .Navbar ul{
+        display: block;
+        margin-left: 30%;
+        margin-top: 10%;
+        
+    
+    }
+    .Navbar{
+      background-color:rgb(105,0,101);
+      position: absolute;
+      width: 400px;
+      z-index: 1;
+      height: 500px;
+    }
+    
+    .Navbar ul li a{
+        color: rgb(255, 255, 255);
+    
+    }
+    .header-web{
+        display: none;
+    }
+    .main-content{
+        max-width: 450px;
+        display: block;
+    }
+    .image{
+        margin-left: 20%;
+        width: 200px;
+
+    }
+    .image img{
+        width: 200px;
+        height: 200px;
+    }
+    .menu{
+        display: block;
+    }
+    .menu img{
+        width: 30px;
+        height: 30px;
+        
+    }
+    .Scroll{
+        top: 65%;
+    }
+    .phone-header{
+        display: flex;
+        flex-direction: row;
+    }
+}

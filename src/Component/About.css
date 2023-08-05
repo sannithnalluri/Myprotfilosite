@@ -1,0 +1,54 @@
+.About-Section h1{
+    text-align: center;
+    margin-bottom: 30%;
+    padding: 10px;
+    color: white;
+    padding-right: 40px;
+
+}
+.About-Section span{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    margin: 20px;
+    color: rgb(105,0,101);
+
+}
+.line{
+    height: 2px;
+    background-color: rgb(105,0,101);
+}
+.heading
+{
+    background-color: rgb(105,0,101);
+    width: fit-content;
+    border-bottom-right-radius: 50px;
+}
+.heading h1{
+    color: white;
+    font-size: 25px;
+}
+.project{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.desc{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.About-Section{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+@media (max-width:500px) {
+    .About-Section span{
+        width: 350px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        font-size: 15px;
+    }
+    .desc{
+        width: 350px;
+        margin-left: 0px;
+    }
+}
